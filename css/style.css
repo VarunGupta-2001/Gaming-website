@@ -1,0 +1,73 @@
+/* navbar */
+.navbar {
+    border-bottom: 5px solid #70707077;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link:hover {
+    color: #EC4300;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link.active {
+    color: #EC4300;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+/* home-banner section */
+
+.home-banner {
+    background: url(../images/Group\ 46.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* realstic battle section */
+
+.realstic-navigation li a.active {
+    color: #EC4300 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 0.5rem;
+}
+
+.realstic-navigation li a:hover {
+    color: #EC4300 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 0.5rem;
+}
+
+/* slick slider */
+
+.slick-slide {
+    margin: 0 1rem;
+}
+
+/* top games */
+
+.top-games {
+    background: url(../images/wallpaperflare.com_wallpaper.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.games-list {
+    height: fit-content;
+    height: -moz-fit-content;
+}
+
+/* vicious champions section */
+
+.vicious-list li::before {
+    content: "\25EF";
+    color: #EC4300;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+}
